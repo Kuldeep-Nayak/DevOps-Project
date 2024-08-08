@@ -6,52 +6,54 @@ Cluster is created.
 
 Node group
 
-![image](https://github.com/user-attachments/assets/4abf8a84-29ff-47a6-83ba-4e1b1221f8e6)
+![Screenshot 2024-07-18 202155](https://github.com/user-attachments/assets/622b5bf5-f476-4bc1-996e-e7f5cef4dbdf)
 
 Node group and worker node(from command run in XShell)
 
-![image](https://github.com/user-attachments/assets/6551e180-65a4-4faf-aa3b-fbedb1943d91)
+![Screenshot 2024-07-18 202611](https://github.com/user-attachments/assets/ad7669b4-d94d-44db-807b-eff940e3f03d)
 
 VPC is created.
 
-![image](https://github.com/user-attachments/assets/6a94b287-2794-4ab9-8667-56f009c901e7)
+![Screenshot 2024-07-18 203245](https://github.com/user-attachments/assets/614ae0b3-f9d2-4c7a-a65d-28a2379c4e30)
 
 Necessary IAM Roles
 
-![image](https://github.com/user-attachments/assets/b7408966-69de-4783-bbf9-2a67b81c52ed)
-![image](https://github.com/user-attachments/assets/12ea622d-1f24-4ec7-b345-d23ff688d2ac)
+![Screenshot 2024-07-18 203426](https://github.com/user-attachments/assets/2e23ac74-3647-450e-8865-de2e5bcfedaa)
+![Screenshot 2024-07-18 203634](https://github.com/user-attachments/assets/4221f2bf-a318-4147-b217-612c6a435d5e)
 
 eks_cluster_role
 
-![image](https://github.com/user-attachments/assets/0286afe5-e4d5-458d-b5fc-88657ad2584e)
+![Screenshot 2024-07-18 205738](https://github.com/user-attachments/assets/cb9cb3b2-ae66-48bc-ac5c-76035d4ccf7a)
 
 eks_worker_node_role
 
-![image](https://github.com/user-attachments/assets/f0e6ff1f-6b35-446e-adf5-ff42a03eacd0)
+![Screenshot 2024-07-18 212752](https://github.com/user-attachments/assets/878d7dcc-64be-438c-96bc-b3603be9078e)
+
+eks_worker_node_role permissions
+
+![Screenshot 2024-07-18 213016](https://github.com/user-attachments/assets/df2499d1-3abe-4b07-9e06-694a6df94c5c)
 
 EKS logs in CloudWatch
 
-![image](https://github.com/user-attachments/assets/c7e59000-7293-48f0-ad4f-cda2eac5a40c)
+![Screenshot 2024-07-18 212621](https://github.com/user-attachments/assets/1c12cc2d-3883-407d-b92f-d0e6326845a2)
 
 
 ### Question-2: Enable state locking using terraform through s3 and DynamoDB.
 
 s3 bucket created
 
-![image](https://github.com/user-attachments/assets/02592486-2898-4b70-ab20-3ba1a232f813)
+![Screenshot 2024-07-18 234225](https://github.com/user-attachments/assets/f61412df-65b1-4fe1-9db0-3543a3f2e976)
 
-No State file inside s3 bucket (Error)
+No State file inside s3 bucket (Error) // The backend.tf file is not executed properly.
 
-![image](https://github.com/user-attachments/assets/f3d51ad8-fc44-441f-8cbf-a5cc3cd1894c)
+![Screenshot 2024-07-18 234959](https://github.com/user-attachments/assets/ded00972-e6d7-41bb-8ed8-e89b8ccfddfd)
 
 Table created in DynamoDB
 
-![image](https://github.com/user-attachments/assets/dc1cd894-8c30-4997-b1dd-b1a81bfd23ca)
+![Screenshot 2024-07-18 234747](https://github.com/user-attachments/assets/0cc29370-37c2-4af2-879e-978e4c65180c)
 
-No State Locking-Lock Id (Error)
+No State Locking-Lock Id (Error) // The backend.tf file is not executed properly.
 
-![image](https://github.com/user-attachments/assets/bed71c5c-7f4f-4a85-9c05-8dd6d031fb67)
-![image](https://github.com/user-attachments/assets/46217bdc-f910-4b23-b634-b5b4bfcfdfa6)
-
+![Screenshot 2024-07-18 235101](https://github.com/user-attachments/assets/cdc15d66-9401-4e5f-96c9-c2f2207a61f4)
 
 This is an individual project of during summer internship-3 on ‘DevOps Masters’ course.
