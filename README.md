@@ -55,5 +55,7 @@ Table created in DynamoDB
 No State Locking-Lock Id (Error) // The backend.tf file is not executed properly.
 
 ![Screenshot 2024-07-18 235101](https://github.com/user-attachments/assets/cdc15d66-9401-4e5f-96c9-c2f2207a61f4)
+![Screenshot 2024-07-19 000412](https://github.com/user-attachments/assets/72bafa4e-6e52-4438-9af9-031805ddb376)
+
 
 This is an individual project of during summer internship-3 on ‘DevOps Masters’ course.
