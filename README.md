@@ -1,4 +1,4 @@
-Question-1:
+Question-1 
 Create a EKS cluster using terraform and create VPC, IAM roles, worker nodes, enable logging for EKS through cloud watch.
 
 Cluster is created.
