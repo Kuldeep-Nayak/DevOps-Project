@@ -1,5 +1,4 @@
-Question-1 
-Create a EKS cluster using terraform and create VPC, IAM roles, worker nodes, enable logging for EKS through cloud watch.
+### Question-1: Create a EKS cluster using terraform and create VPC, IAM roles, worker nodes, enable logging for EKS through cloud watch.
 
 Cluster is created.
 ![image](https://github.com/user-attachments/assets/d216e3bb-d1f1-47f0-8cf1-37daaace3a23)
@@ -27,8 +26,7 @@ EKS logs in CloudWatch
 ![image](https://github.com/user-attachments/assets/c7e59000-7293-48f0-ad4f-cda2eac5a40c)
 
 
-Question-2
-Enable state locking using terraform through s3 and DynamoDB.
+### Question-2: Enable state locking using terraform through s3 and DynamoDB.
 
 s3 bucket created
 ![image](https://github.com/user-attachments/assets/02592486-2898-4b70-ab20-3ba1a232f813)
