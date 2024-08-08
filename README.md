@@ -2,7 +2,7 @@
 
 Cluster is created.
 
-![image](https://github.com/user-attachments/assets/d216e3bb-d1f1-47f0-8cf1-37daaace3a23)
+![Screenshot 2024-07-18 202058](https://github.com/user-attachments/assets/f7269a1e-ecee-487f-9c11-ceb866236633)
 
 Node group
 
